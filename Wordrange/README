@@ -1,0 +1,22 @@
+Abhinav Begur 
+abegur@ucsc.edu
+CSE 101
+
+My program implements a standard Binary Search Tree, in which I used Sesh's BST code as a huge reference. From Sesh's code, I used
+his following functions: insert, find, delete, and deleteTree. Additionally, I created a helper function called range() which calls
+its own recursive method that counts the number of nodes in the tree that is within the user-given min and max. To help implement 
+this method, I referenced the getCount() function from https://www.geeksforgeeks.org/count-bst-nodes-that-are-in-a-given-range/. 
+However,to attempt in getting a more efficient run time and rather always traversing through the tree from the root, I used my code for 
+lca() to determine the least common ancestor of two given strings. The least common ancestor would be where I would start my 
+traversal in the range() function.
+
+I was not able to figure out to determine the balance factors of subtrees to make an AVL tree. I noticed in the HW3 pdf, that
+5 points was given for those who "code up a standard BST, and range searching by reading the entire tree." I understand the features
+of an AVL tree but I was not able to figure out how to code up the rotation functions for the 4 cases. 
+
+FILES BEING SUBMITTED:
+1) wordrange.cpp
+2) AVL.cpp
+3) AVL.h
+4) Makefile
+5) README
