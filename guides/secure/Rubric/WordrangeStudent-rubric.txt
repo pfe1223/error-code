@@ -1,0 +1,43 @@
+# Rubric file for Wordrange assignment of CSE101, Winter 2020
+#
+##################
+s0: 0
+c0: make
+e0: wordrange
+p0: ./wordrange
+#################
+s1: 2
+t1: Tests/simple-input.txt
+i1: Tests/simple-output.txt
+m1: Simple input pass
+#################
+s2: 2
+t2: Tests/double-input.txt
+i2: Tests/double-output.txt
+m2: Simple input pass
+#################
+s3: 1
+t3: Tests/onlya-words-input.txt
+i3: Tests/onlya-words-output.txt
+m3: Small set of "a" words input pass
+#################
+s4: 2
+t4: Tests/allwords-basic-input.txt
+i4: Tests/allwords-basic-output.txt
+m4: allwords basic input pass
+#################
+s5: 1
+t5: Tests/allwords-more-input.txt
+i5: Tests/allwords-more-output.txt
+m5: allwords more input pass
+#################
+s6: 2
+t6: Tests/shakespeare-range-input.txt
+i6: Tests/shakespeare-range-output.txt
+m6: shakespeare range input passes
+#################
+s7: 1
+t7: Tests/shakespeare-really-large-input.txt
+i7: Tests/shakespeare-really-large-output.txt
+m7: shakespeare really large input passes
+
